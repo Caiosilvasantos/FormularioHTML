@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="POST">
+        <fieldset>
+            <legend>Formulario de cadastro</legend>
+        <h1>Preencha os campos</h1>    
+        <label for="text1">Nome:</label>
+        <input type="text" name="nome "placeholder= "Digite seu nome" id="text1" required="required"><br>
+
+        <label for="text2">E-mail:</label>
+        <input type="email" name="usermail" placeholder="Digite seu e-mail" id="text2" ><br>
+
+        <label for="text3">Telefone:</label>   
+        <input type="text" name="telefone" placeholder="Digite seu telefone" id="text3" > <br>
+
+        <label for="text4">Opção de contato:</label>
+        
+        <select name="contato" id="text4" >
+         
+        <option value="">Selecione uma opçao</option>     
+        <option value="Telefone">Telefone</option>
+        <option value="E-mail">E-mail</option>
+         
+        </fieldset>
+        </select>
+        <br>
+
+        <input type="submit" value="Enviar" onclick="alert('Dados enviados')">
+    </form>
+    
+</body>
+</html>
